@@ -19,3 +19,6 @@ test(testDescription,testExpectation, timeout)
 test or it both mean same.
 
 jest is provided globally by default, so no need to import specifically.
+
+test.only(...........) => jest runs only this test and skips others
+test.skip(...........) => jest skios this test and runs other tests
