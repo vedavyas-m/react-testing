@@ -22,3 +22,10 @@ jest is provided globally by default, so no need to import specifically.
 
 test.only(...........) => jest runs only this test and skips others
 test.skip(...........) => jest skios this test and runs other tests
+
+Grouping tests=>
+   tests can be grouped using describe.
+
+.only and .skip can be used on describe as well, 
+you can nest describe blocks.
+and you can have multiple describe blocks in a single test file.
