@@ -1,0 +1,21 @@
+RTL philosophy ->
+"The more your tests resembles the way your software is used, the more confidance they can give you"
+
+CRA provides Jest and RTL out of the box.
+
+by default 'npm test' runs Jest in watch mode.
+
+test structure=>
+
+testDescription= "any text to properly describe what is the test case"
+testExpectation = ()=>{
+    // a call back function where test is asserted
+    expect().matcherFunction()
+}
+timeOut = 5s (default value)
+
+test(testDescription,testExpectation, timeout)
+
+test or it both mean same.
+
+jest is provided globally by default, so no need to import specifically.
